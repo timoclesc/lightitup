@@ -1,0 +1,78 @@
+{
+  "id": "episode",
+  "label": "episode",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Details": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "coverimage": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Coverimage"
+        }
+      },
+      "season": {
+        "type": "Number",
+        "config": {
+          "label": "Season",
+          "placeholder": ""
+        }
+      },
+      "number": {
+        "type": "Number",
+        "config": {
+          "label": "Number",
+          "placeholder": ""
+        }
+      },
+      "content": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Content",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "date": {
+        "type": "Date",
+        "config": {
+          "label": "Date",
+          "placeholder": ""
+        }
+      },
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "slug",
+          "placeholder": ""
+        }
+      },
+      "apple": {
+        "type": "Link",
+        "config": {
+          "label": "Apple",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "spotify": {
+        "type": "Link",
+        "config": {
+          "label": "Spotify",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}

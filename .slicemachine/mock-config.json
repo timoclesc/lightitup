@@ -1,0 +1,14 @@
+{
+  "_cts": {
+    "episode": {},
+    "author": {},
+    "homepage": {
+      "intro": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  }
+}

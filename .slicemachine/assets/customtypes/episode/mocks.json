@@ -1,0 +1,35 @@
+{
+  "id": "c457fb3f-0a18-4edd-a34f-02c93c513840",
+  "uid": "mollitia-corporis-in",
+  "type": "episode",
+  "data": {
+    "title": "embrace user-centric interfaces",
+    "coverimage": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+    },
+    "season": 2883,
+    "number": 1239,
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Do nostrud id sint irure ea esse amet aliquip et Lorem. Anim nulla est est deserunt adipisicing voluptate in id veniam magna.",
+        "spans": []
+      }
+    ],
+    "date": "2013-06-17",
+    "apple": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "spotify": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    }
+  }
+}

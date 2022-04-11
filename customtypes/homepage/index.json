@@ -1,0 +1,81 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "tag": {
+        "type": "Text",
+        "config": {
+          "label": "Tag",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      },
+      "intro": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Intro",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,heading1,heading2,heading3,strong,em,hyperlink,list-item,o-list-item,rtl"
+        }
+      },
+      "socials": {
+        "type": "Group",
+        "config": {
+          "label": "Socials",
+          "fields": {
+            "facebook": {
+              "type": "Link",
+              "config": {
+                "label": "Facebook",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "instagram": {
+              "type": "Link",
+              "config": {
+                "label": "Instagram",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "spotify": {
+              "type": "Link",
+              "config": {
+                "label": "Spotify",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "anchor": {
+              "type": "Link",
+              "config": {
+                "label": "Anchor",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "apple": {
+              "type": "Link",
+              "config": {
+                "label": "Apple",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -9,15 +9,14 @@ export default function MoreStories({ posts }) {
       <div className="two-col-container">
         {posts.map(({ node }) => (
           <PostPreview
-            key={node._meta.uid}
+            key={node._meta.id}
             title={node.title}
             coverImage={node.coverimage}
             date={node.date}
             author={node.author}
-            slug={node._meta.uid}
             excerpt={node.excerpt}
-            episodenumber={node.episodenumber}
-            seasonnumber={node.seasonnumber}
+            number={node.number}
+            season={node.season}
           />
         ))}
       </div>

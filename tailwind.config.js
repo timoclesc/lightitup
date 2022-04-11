@@ -4,7 +4,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      display: ['Bangers', 'ui-sans-serif', 'system-ui']
+      display: ['Amatic SC', 'cursive'],
+      sans: ['Andika', 'arial', 'sans-serif'],
     },
     extend: {
       colors: {

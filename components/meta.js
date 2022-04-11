@@ -6,6 +6,9 @@ export default function Meta({title, desc, slug}) {
   const router = useRouter();
   return (
     <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Andika&display=swap" rel="stylesheet" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"

@@ -1,0 +1,84 @@
+{
+  "id": "c2fa5701-0548-4a83-82e7-d76e16f107ff",
+  "uid": "iure-officiis-quia",
+  "type": "homepage",
+  "data": {
+    "tag": "repurpose collaborative metrics",
+    "description": "streamline clicks-and-mortar web services",
+    "intro": [
+      {
+        "type": "paragraph",
+        "text": "Ullamco ullamco enim proident.",
+        "spans": []
+      }
+    ],
+    "socials": [
+      {
+        "facebook": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "instagram": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "spotify": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "anchor": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "apple": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "facebook": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "instagram": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        },
+        "spotify": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "anchor": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "apple": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      },
+      {
+        "facebook": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "instagram": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "spotify": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "anchor": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "apple": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
+      }
+    ]
+  }
+}
