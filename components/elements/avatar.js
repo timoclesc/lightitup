@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import IconLinks from 'components/icon-links'
+import IconLinks from '@/modules/icon-links'
 
 export default function Avatar({ author }) {
   var {name, picture, bio, instagram, _meta} = author

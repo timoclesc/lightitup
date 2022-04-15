@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { RichText } from 'prismic-reactjs'
-import Date from '../components/date'
-import EpisodeSeason from '../components/episode-season'
-import IconLinks from '../components/icon-links'
+import Date from '../elements/date'
+import EpisodeSeason from '../elements/episode-season'
+import IconLinks from './icon-links'
 
 export default function HeroPost({
   title,

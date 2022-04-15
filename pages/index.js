@@ -1,32 +1,29 @@
-import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Layout from '../components/layout'
-import { getAllEpisodesForHome, getAllPostsForHome } from '../lib/api'
-import SectionSeparator from 'components/section-separator'
-import Presenters from 'components/presenters'
+import Container from '@/layout/container'
+import MoreStories from '@/layout/more-stories'
+import Layout from '@/layout/layout'
+import Intro from '@/modules/intro'
+import { getAllEpisodesForHome } from '../lib/api'
 
-export default function Index({ preview, allPosts, allAuthors }) {
-  const heroPost = allPosts[0].node
-  const morePosts = allPosts.slice(1);
+
+export default function Index({ preview, allPosts, allAuthors, homepage }) {
+
   return (
-    <>
-      <Layout preview={preview}>
+      <Layout preview={preview} homepage={homepage}>
+        <Intro content={homepage.intro} />
         <Container>
-          <Presenters allAuthors={allAuthors} />
-          <SectionSeparator />
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {allPosts.length > 0 && <MoreStories posts={allPosts} />}
         </Container>
       </Layout>
-    </>
   )
 }
 
 export async function getStaticProps({ preview = false, previewData }) {
   const data = await getAllEpisodesForHome(previewData)
+
   const allPosts = data.allEpisodes.edges
   const allAuthors = data.allAuthors.edges
+  const homepage = data.allHomepages.edges[0].node
   return {
-    props: { preview, allPosts, allAuthors }
+    props: { preview, allPosts, allAuthors, homepage }
   }
 }

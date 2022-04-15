@@ -1,4 +1,4 @@
-import Avatar from 'components/avatar'
+import Avatar from '@/elements/avatar'
 
 export default function Presenters({ allAuthors }) {
   return (

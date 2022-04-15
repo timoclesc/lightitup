@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import { CMS_NAME, HOME_OG_IMAGE_URL, SITE_DESC, SITE_TITLE} from '../lib/constants'
+import { CMS_NAME, HOME_OG_IMAGE_URL, SITE_DESC, SITE_TITLE} from 'lib/constants'
 
 export default function Meta({title, desc, slug}) {
   const router = useRouter();
