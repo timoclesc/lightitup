@@ -54,7 +54,7 @@ export default function Meta({title, desc, slug}) {
         property="og:description"
         content={ desc ? desc : SITE_DESC}></meta>
 
-      <meta property="og:image" content={'https://lightitup-timoclesc.vercel.app/images/meta_img.png'} />
+      <meta property="og:image" content={'https://lightitup-timoclesc.vercel.app/image/meta_img.png'} />
 
     </Head>
   )
