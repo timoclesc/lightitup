@@ -12,7 +12,7 @@ export default function Meta({title, desc, slug}) {
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/favicon/apple-touch-icon.png"
+        href="/favicon/android-chrome-192x192.png"
       />
       <link
         rel="icon"
@@ -24,7 +24,7 @@ export default function Meta({title, desc, slug}) {
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon/favicon-16x16.png"
+        href="/favicon/favicon-32x32.png"
       />
       <link rel="manifest" href="/favicon/site.webmanifest" />
       <link
@@ -33,8 +33,8 @@ export default function Meta({title, desc, slug}) {
         color="#000000"
       />
       <link rel="shortcut icon" href="/favicon/favicon.ico" />
-      <link rel="canonical" href={`https://thepuncherschance.com.au/${slug ? slug : ''}`} />
-      <meta name="og:url" content={`https://thepuncherschance.com.au/${slug ? slug : ''}`}></meta>
+      <link rel="canonical" href={`https://lightituppodcast.com/${slug ? slug : ''}`} />
+      <meta name="og:url" content={`https://lightituppodcast.com${slug ? slug : ''}`}></meta>
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
@@ -54,7 +54,7 @@ export default function Meta({title, desc, slug}) {
         property="og:description"
         content={ desc ? desc : SITE_DESC}></meta>
 
-      <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <meta property="og:image" content={'https://lightitup-timoclesc.vercel.app/images/meta_img.png'} />
 
     </Head>
   )
